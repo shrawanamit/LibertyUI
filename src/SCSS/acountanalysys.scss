@@ -1,0 +1,149 @@
+.acountanalysysContainer{
+    display: flex;
+    width: 80%;
+    
+}
+@mixin container {
+    display: flex;
+    flex-direction: column;
+    // justify-content: center;
+    width: 32%;
+    min-height: 450px;
+    border: 1px solid lightgrey;
+    background-color: white;
+    align-items: center;
+    
+}
+.acountAnalysys{
+ @include container();
+ padding: 20px;
+}
+.productanalysys{
+    @include container();
+    margin: 0px 21px 0px 21px;
+    // padding:20px;
+}
+.salesanalysis{
+    @include container();
+}
+.imageContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+}
+.imageSize{
+    border-radius: 50%;
+    width: 95px;
+    height: 95px;
+    
+    
+}
+.name{
+    font-size: x-large;
+    font-weight: 500;
+    // text-align: center;
+}
+.post{
+    opacity: 0.7;
+    font-weight: 500;
+}
+.about{
+    text-align: center;
+    font-weight: 500;
+}
+.follow-btn-contaner{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+    width: 100%;
+    justify-content: center;
+}
+.follow-btn{
+    display: flex;
+    justify-content: center;
+
+}
+.btn-primary{
+    background-color: blue !important;
+}
+.postContener{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    text-align: center;
+}
+.post{
+    display: flex;
+    flex-direction: column;
+   
+}
+.totalPost{
+    font-size: 18px;
+    font-weight: 500;
+}
+.postHeading{
+    font-size: 14px;
+    font-weight: 500;
+}
+.topproducts-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+}
+.topProduct{
+font-size: 18px;
+font-weight: 500;
+opacity: 0.85;
+
+}
+.topProductCount{
+font-size: xx-large;
+font-weight: 600;
+
+}
+.topProductpercentage{
+font-size: 14px;
+font-weight: 500;
+opacity: 0.85;
+}
+.productanalysysContent{
+    width: 100%;
+    padding:20px;
+}
+.graph{
+    display: flex;
+    padding-top: 35px;
+    width: 100%;
+}
+.graph-image{
+    width: 100%;
+}
+.salesanalysis{
+    padding:20px;
+    display: flex;
+    flex-direction: column;
+}
+.totalSalesContainer{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+.totalsale{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.totalsaleNo{
+    font-size: 22px;
+    font-weight: 600;
+}
+.linegraph{
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.image2{
+    width: 100%;
+}

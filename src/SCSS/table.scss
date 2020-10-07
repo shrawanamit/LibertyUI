@@ -1,0 +1,42 @@
+.tableContainer{
+    margin:25px 0px 20px 0px;
+    width: 80%;
+    background-color: white;
+}
+.tableheader{
+    background-color: lightgray;
+    border: 1px solid white;
+}
+.tableHeading{
+    height: 65px;
+
+}
+.tableRow{
+    height: 65px;
+    font-weight: 600;
+    opacity: 0.9;
+}
+.tablebody{
+    border: 1px solid gray;
+}
+.Approved{
+    background-color: rgb(112, 228, 112);
+    padding: 0px 4px 0px 4px;
+    border-radius: 4px;
+    color: white;
+}
+.pending{
+    background-color: orange;
+    padding: 0px 4px 0px 4px;
+    border-radius: 4px;
+    color: white;
+}
+.rejected{
+    background-color: red;
+    padding: 0px 4px 0px 4px;
+    border-radius: 4px;
+    color: white;
+}
+.table{
+    margin-bottom: 0px !important;
+}

@@ -1,0 +1,92 @@
+
+.status-updateContainer{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 365px;
+}
+@mixin container{
+    width: 48.7%;
+    background-color: white;
+    border: 1px solid grey;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.statusContainer{
+   @include container();   
+
+}
+.updateContainer{
+    @include container();  
+    padding: 20px; 
+}
+.update{
+    padding: 1px 0px 12px 0px;
+    font-size: 22px;
+    font-weight: 500;
+}
+.updateBody{
+    display: flex;
+    flex-direction: column;
+}
+.updateContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-bottom: 18px;
+}
+.UserConfirmation{
+    font-size: 17px;
+    font-weight: 550;
+}
+.UserConfirmationMessage{
+    font-size: 14px;
+    font-weight: 500;
+    opacity: 0.9;
+    padding: 5px 0px 4px 0px ;
+}
+.UserConfirmationDate{
+    font-size: 13px;
+    font-weight: 500;
+    opacity: 0.7;
+    align-items: center;
+}
+.bargraphcontainer{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    height: 65%;
+}
+.projectStatusContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    border-top: 1px solid grey;
+    padding: 15px 0px 15px 20px;
+}
+.projectstatusno{
+    display: flex;
+    align-items: flex-end;
+
+}
+.Number{
+    font-size: 46px;
+    font-weight: 600;
+}
+.projectstatus{
+    font-size: 16px;
+    font-weight: 500;
+    opacity: 0.8;
+}
+.NumberSufix{
+    padding: 0px 0px 10px 5px;
+    font-size: 16px;
+    font-weight: 500;
+    opacity: 0.8;
+}
+.graphheading{
+    font-size: 18px;
+    font-weight: 500;
+    opacity: 0.8;
+}
