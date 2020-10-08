@@ -1,7 +1,7 @@
 import React from "react";
 import { Line } from "react-chartjs-2";
-// import { MDBSimpleChart } from "mdbreact";
 import { MDBContainer } from "mdbreact";
+import '../SCSS/graph.scss';
 
 export default class LineGraph extends React.Component {
   state = {
@@ -57,20 +57,27 @@ export default class LineGraph extends React.Component {
   render() {
     return (
       <MDBContainer>
-        <Line data={this.state.dataLine}
+        <Line data={this.state.dataLine} 
           options={{
             // responsive: true }
 
             legend: {
               display: false
             },
+            
             scales: {
+              xAxes: [{
+                 gridLines: {
+                    display: false
+                 }
+              }],
               yAxes: [{
-                  ticks: {
-                      beginAtZero: true
-                  }
+                 gridLines: {
+                    display: false
+                 },
+                 scaleShowLabels: false,
               }]
-          }
+           }
           }} />
 
       </MDBContainer>
