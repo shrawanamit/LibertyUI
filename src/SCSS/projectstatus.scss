@@ -8,7 +8,7 @@
 @mixin container{
     width: 48.7%;
     background-color: white;
-    border: 1px solid grey;
+    border: 1px solid lightgray;
     height: 100%;
     display: flex;
     flex-direction: column;
@@ -62,7 +62,7 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    border-top: 1px solid grey;
+    border-top: 1px solid lightgray;
     padding: 15px 0px 15px 20px;
 }
 .projectstatusno{
@@ -86,7 +86,8 @@
     opacity: 0.8;
 }
 .graphheading{
-    font-size: 18px;
-    font-weight: 500;
-    opacity: 0.8;
+    font-size: 20px;
+    font-weight: 600;
+    // opacity: ;
+    padding-bottom: 20px;
 }

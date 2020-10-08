@@ -2,9 +2,7 @@ import React from 'react';
 import '../SCSS/acountanalysys.scss'
 import logo from '../assets/user.png';
 import Button from 'react-bootstrap/Button'
-// import Divider from '@material-ui/core/Divider';
 import graph from "../assets/graph.png"
-// import linegraph from "../assets/graph1.png"
 import LineGraph from './LineGraph';
 export default class AcountAnalysis extends React.Component {
     render() {

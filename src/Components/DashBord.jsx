@@ -13,7 +13,8 @@ import TotalCount from './TotalCount'
 import AcountAnalysis from './AcountAnalysis'
 import TranjectionTable from './TranjectionTable';
 import ProjectStatus from './ProjectStatus';
-import ManageTickets from './ManageTickets'
+import ManageTickets from './ManageTickets';
+import logomini from '../assets/logo-mini.svg'
 
 
 export default class DashBoard extends React.Component {
@@ -23,6 +24,7 @@ export default class DashBoard extends React.Component {
                 <div className="toolBar">
                     <div className="tool-Bar-part1">
                         <div className="heading">
+                            <img src={logomini} className="logomini"/>
                             <spam className="Liberty">Liberty</spam>
                             <spam className="ui">UI</spam>
                         </div>

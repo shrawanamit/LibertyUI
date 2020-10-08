@@ -1,3 +1,4 @@
+$base-Color:rgb(100, 82, 243);
 .totalCountContainer{
     width: 80%;
     display: flex;
@@ -19,7 +20,7 @@
 }
 .icons{
     padding: 10px;
-    color: blue;
+    color:$base-Color;
 }
 .totalCountHeadingContainer{
     display: flex;

@@ -1,3 +1,4 @@
+$baseColor:rgb(100, 82, 243);
 .DashBord{
     display: flex;
     flex-direction: column;
@@ -19,11 +20,12 @@
     width:80%;
     justify-content: space-between;
     padding: 10px 0px 10px 0px; ;
+    align-items: center;
 }
 @mixin appName {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 26px;
-    font-weight: 600;
+    font-size: 30px;
+    font-weight: 650;
     
 }
 .Liberty{
@@ -32,12 +34,12 @@
 }
 .ui{
     @include appName();
-    color: blue;
+    color: $baseColor;
 }
 .heading
 {
     display: flex;
-    // width: 50%;
+    align-items: center;
    
 } 
 .iconsContainer{
@@ -76,5 +78,12 @@
     padding: 0px 8px 0px 8px;
 }
 .icons-toolBar{
-    color: blue;
+    color: $baseColor;
+}
+.logomini{
+    height: 25px;
+    width: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }

@@ -1,3 +1,4 @@
+$base-Color:rgb(100, 82, 243);
 .acountanalysysContainer{
     display: flex;
     width: 80%;
@@ -65,7 +66,7 @@
 
 }
 .btn-primary{
-    background-color: blue !important;
+    background-color:$base-Color !important;
 }
 .postContener{
     display: flex;

@@ -1,15 +1,80 @@
+$font-Color:#223C61;
 .manageticketsContainer{
     margin-top: 20px;
     margin-bottom: 20px;
     width: 80%;
-    height: 355px;
+    min-height: 355px;
     background-color: white;
     padding: 20px;
     display: flex;
     flex-direction: column;
     border: 1px solid lightgray;
 }
+.manageTickets{
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color:$font-Color;
+}
 .jamesContainer{
     display: flex;
-    justify-content: flex-start;
+    // justify-content: ;
+    padding:15px;
+}
+.jamesImage{
+ display: flex;
+ flex-grow: 1;
+
+//  padding-top: 10px;
+//  padding-right: 10px;
+ 
+}
+.james{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+.jamesContent{
+
+    display: flex;
+    flex-direction: column;
+    flex-grow: 9;
+    padding-left: 40px;
+    color:$font-Color;
+
+}
+.jamesManage{
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+.stellaContainer{
+    display: flex;
+    // justify-content: ;
+    padding:15px;
+    border-top:1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+.jamesMessage{
+    font-size: 14px;
+    font-weight: 500;
+}
+.jamesMessage1{
+    font-size: 13px;
+    font-weight: 500;
+    opacity:0.85
+}
+.jamesMessageDate{
+    padding-top: 4px;
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+}
+.jamesRespondTime{
+    display: flex;
+    font-size: 13px;
+    font-weight: 500;
+    opacity:0.8
 }

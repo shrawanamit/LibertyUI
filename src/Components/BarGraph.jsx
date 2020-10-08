@@ -10,16 +10,17 @@ export default class BarGraph extends React.Component {
             datasets: [{
                 label: '# of Votes',
                 data: [8, 10, 3, 10, 5, 15,8],
-                backgroundColor: 'blue',
+                backgroundColor: 'rgb(100, 82, 243)',
 
             },
             {
                 label: '# of Votes',
                 data: [8, 6, 13, 6, 11, 1,8],
-                backgroundColor: '#d0d1e5',
+                backgroundColor: '#e6e7ee',
 
             }
         ]
+        
         },
     }
     render() {
@@ -35,14 +36,21 @@ export default class BarGraph extends React.Component {
                           },
                           
                           scales: {
+                              
+                                
+                              
                             xAxes: [{
                                 stacked: true,
                                 barPercentage: 0.4,
-                               gridLines: {
+                                gridLines: {
                                   display: false
                                }
                             }],
                             yAxes: [{
+                                // scaleShowLabels: false,
+                                ticks:{
+                                    display:false,
+                                },
                                 stacked: true,
                                  gridLines: {
                                   display: false
