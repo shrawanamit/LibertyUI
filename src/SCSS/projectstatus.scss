@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     width: 80%;
-    height: 365px;
+    min-height: 365px;
 }
 @mixin container{
     width: 48.7%;
@@ -90,4 +90,15 @@
     font-weight: 600;
     // opacity: ;
     padding-bottom: 20px;
+}
+@media only screen and (max-width: 500px) {
+    .status-updateContainer{
+        flex-direction: column;
+    }
+    .statusContainer{
+        width: 100%;
+    }
+    .updateContainer{
+        width: 100%;
+    }
 }

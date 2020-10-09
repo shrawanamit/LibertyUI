@@ -4,6 +4,7 @@ import logo from '../assets/user.png';
 import Button from 'react-bootstrap/Button'
 import graph from "../assets/graph.png"
 import LineGraph from './LineGraph';
+import Areagraph from './Areagraph'
 export default class AcountAnalysis extends React.Component {
     render() {
         return (
@@ -58,8 +59,8 @@ export default class AcountAnalysis extends React.Component {
                             </div>
                         </div>
                         <div className="graph">
-                            <img className="graph-image" src={graph} alt="graph" />
-
+                            {/* <img className="graph-image" src={graph} alt="graph" /> */}
+                            <Areagraph />
                         </div>
 
                     </div>

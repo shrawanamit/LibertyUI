@@ -149,3 +149,19 @@ opacity: 0.85;
 .image2{
     width: 100%;
 }
+@media only screen and (max-width: 500px) {
+    .acountanalysysContainer{
+        flex-direction: column;
+    }
+    .acountAnalysys{
+        width: 100%;
+    }
+    .productanalysys{
+        width: 100%;
+        margin: 0px;
+
+    }
+    .salesanalysis{
+        width: 100%;
+    }
+}

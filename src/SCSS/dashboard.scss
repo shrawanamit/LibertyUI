@@ -87,3 +87,21 @@ $baseColor:rgb(100, 82, 243);
     justify-content: center;
     align-items: flex-end;
 }
+@media only screen and (max-width: 500px) 
+{
+    .Liberty{
+        display: none;
+    }
+    .ui{
+        display: none;
+    }
+    .iconsContainer{
+padding-left: 20px;
+    }
+    .notificationIcons{
+        margin: 0px;
+    }
+    .heading-toolBar{
+        display: none;
+    }
+}

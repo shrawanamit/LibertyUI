@@ -14,7 +14,8 @@ import AcountAnalysis from './AcountAnalysis'
 import TranjectionTable from './TranjectionTable';
 import ProjectStatus from './ProjectStatus';
 import ManageTickets from './ManageTickets';
-import logomini from '../assets/logo-mini.svg'
+import logomini from '../assets/logo-mini.svg';
+
 
 
 export default class DashBoard extends React.Component {

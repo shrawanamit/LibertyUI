@@ -78,3 +78,29 @@ $font-Color:#223C61;
     font-weight: 500;
     opacity:0.8
 }
+@media only screen and (max-width: 500px) {
+    .jamesContainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .jamesContent{
+        padding-left: 0px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .jamesManage{
+        display: flex;
+        justify-content: flex-start;
+    }
+    .jamesMessageDate{
+        width: 100%;
+    }
+    .jamesRespondTime{
+        padding-right: 15px;
+    }
+    .stellaContainer{
+        flex-direction: column;
+    }
+    
+}

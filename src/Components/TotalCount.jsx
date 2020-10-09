@@ -4,6 +4,8 @@ import GroupOutlinedIcon from '@material-ui/icons/GroupOutlined';
 import GpsFixedIcon from '@material-ui/icons/GpsFixed';
 import CheckCircleOutlineIcon from '@material-ui/icons/CheckCircleOutline';
 import EmojiEventsOutlinedIcon from '@material-ui/icons/EmojiEventsOutlined';
+import PeopleOutlineIcon from '@material-ui/icons/PeopleOutline';
+
 export default class TotalCount extends React.Component {
     render() {
         return (
@@ -11,7 +13,7 @@ export default class TotalCount extends React.Component {
                 <div className="totalCountContainer">
                     <div className="newUserContainer">
                         <div className="icons">
-                            <GroupOutlinedIcon fontSize='large'/>
+                            <PeopleOutlineIcon fontSize='large'/>
                         </div>
                         <div className="totalCountHeadingContainer">
                             <span className="totalCountHeading">New Users</span>

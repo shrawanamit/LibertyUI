@@ -2,8 +2,9 @@ $base-Color:rgb(100, 82, 243);
 .totalCountContainer{
     width: 80%;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    height: 100px;
+    min-height: 100px;
     background-color: white;
     margin: 25px 0px 25px 0px;
     // justify-content: space-around;
@@ -22,6 +23,9 @@ $base-Color:rgb(100, 82, 243);
     padding: 10px;
     color:$base-Color;
 }
+// .MuiSvgIcon-root{
+//     font-size: xxx-large !important;
+// }
 .totalCountHeadingContainer{
     display: flex;
     flex-direction: column;
@@ -40,4 +44,20 @@ $base-Color:rgb(100, 82, 243);
     font-size: 16px;
     font-weight: 500;
     opacity: 0.9;
+}
+@media only screen and (max-width: 500px) 
+{
+    .totalCountContainer{
+        display: flex;
+        flex-wrap: wrap;
+      
+
+    }
+    .newUserContainer{
+        width: 50%;
+        height: 50%;
+        border: 1px solid lightgray;
+        flex-direction: column;
+
+    }
 }
